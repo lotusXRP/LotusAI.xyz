@@ -1,0 +1,1 @@
+git push --set-upstream git@gitlab.com:lotusXRP/$(git rev-parse --show-toplevel | xargs basename).git $(git rev-parse --abbrev-ref HEAD)
